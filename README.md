@@ -8,3 +8,6 @@
 *https://discuss.codecademy.com/t/guide-how-developer-teams-work/394900 \
 
 * https://discuss.codecademy.com/t/what-makes-git-useful-to-a-developer/361275
+
+
+* https://www.codecademy.com/courses/learn-git/articles/f1-u3-git-setup
