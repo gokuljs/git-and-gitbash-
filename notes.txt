@@ -69,4 +69,43 @@ git log shows a list of all previous commits
 ========================================================================================
 
 
+local repository:-
+contents that are stored in your computer are called has local repository 
+
+remote repository:-
+the contents that are stored in github are called has remote repository
+
+===========================================================================================
+Backtracking Intro:-
+
+
+How does Git backtracking differ from simply commiting the desired changes?
+
+
+Backtracking differs in a few ways from making a new commit but there are two reasons that are important 
+for up at this point. First, by backtracking instead of making new commits, 
+we’re able to make small changes to our previous commits without cluttering our repository
+ history with commit messages of similar to “forgot to add file X from my previous commit so
+  doing that now.” Second, and very important, is the following (to quote ProGit):
+
+head commit:-
+In Git, the commit you are currently on is known as the HEAD commit. In many cases, the most recently made commit is the HEAD commit.
+
+syntax:-
+
+git show HEAD
+
+
+git checkout:-
+
+You could rewrite the line how it was originally, but what if you forgot the exact wording? The command
+will restore the file in your working directory to look exactly as it did when you last made a commit.
+
+syntax:-
+git checkout HEAD filename
+
+
+
+
+
 

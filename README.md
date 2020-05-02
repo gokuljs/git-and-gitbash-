@@ -11,3 +11,6 @@
 
 
 * https://www.codecademy.com/courses/learn-git/articles/f1-u3-git-setup
+
+
+* https://www.youtube.com/watch?time_continue=65&v=-sMmrYTtQgE&feature=emb_logo
