@@ -59,7 +59,14 @@ Reasons for using git log:-
  It’s good to know this information is there so that when you’re developing, you have the peace of mind knowing that, as long as your commit messages were decent, you’ll have a safety net.
  And that’s really the main issue: bad commit messages. If you don’t write commits that concisely tell what happened in a commit, it won’t be of much use later when you run into trouble.
 
-
+==========================================================================================
+git init creates a new Git repository
+git status inspects the contents of the working directory and staging area
+git add adds files from the working directory to the staging area
+git diff shows the difference between the working directory and the staging area
+git commit permanently stores file changes from the staging area in the repository
+git log shows a list of all previous commits
+========================================================================================
 
 
 
