@@ -106,6 +106,69 @@ git checkout HEAD filename
 
 
 
+git checkout is sometimes referred to as a “dangerous command”. This highlights that it has some gotcha aspects
+ that you should be aware of when utilizing it. For now, it’s most important to understand that any local (in your w
+ orking directory) changes that you’ve made to the file being checked out will be gone. Git will simply copy the most recently-committed 
+ version of the file to your working directory, overwriting your copy. Therefore, it’s crucial that you avoid this command unless you absolutely 
+ know that you don’t want your unsaved local changes. Keeping this consideration in mind while using this command will save you the grief of losing your progress
+  when all you wanted was to take a peak at what the previous commit looked like.
+
+
+
+==================================================================================
+git reset :
+
+Great! The files you’ve added to the staging area belong in the same commit.
+
+What if, before you commit, you accidentally delete an important line to scene-2.txt? Unthinkingly, you add scene-2.txt to the staging area. The file change is unrelated to the Larry/Laertes swap and you don’t want to include it in the commit.
+
+or 
+
+now u added ur files to the staging Area by mistake u deleted or made changes in one of the file u added to staging Area we can use git reset to modify the staging area and commit the files 
+
+===================================================================================
+
+
+git reset 2:-  very important
+
+
+Creating a project is like hiking in a forest. Sometimes you take a wrong turn and find yourself lost.
+
+Just like retracing your steps on that hike, Git enables you to rewind to the part before you made the wrong turn. You can do this with:
+
+This command works by using the first 7 characters of the SHA of a previous commit. 
+For example, if the SHA of the previous commit is 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba,
+ use:
+
+
+ syntax:-  git reset commit_SHA
+
+
+Before reset:
+
+HEAD is at the most recent commit
+
+After resetting:
+
+HEAD goes to a previously made commit of your choice
+The gray commits are no longer part of your project
+You have in essence rewound the project’s history
+
+============================================================================================
+
+three different ways to backtrack in Git. 
+
+Let’s take a moment to review the new commands:
+
+git checkout HEAD filename: Discards changes in the working directory.
+git reset HEAD filename: Unstages file changes in the staging area.
+git reset commit_SHA: Resets to a previous commit in your commit history.
+
+
+
+======================================================================================
+
+
 
 
 
