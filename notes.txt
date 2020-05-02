@@ -15,5 +15,51 @@ Git Workflow:-
 
 //The Git workflow consists of editing files in the working directory, adding files to the staging area, and saving changes to a Git repository. In Git, we save changes with a commit, which we will learn more about in this lesson.
 
+=============================================================================================
+Blame. Git keeps track of who wrote what and made what changes in a project. 
+This is called blame, and it’s not a bad thing like it might sound. It can be very useful to
+ know who worked on a piece of code so you know who to talk to about it if it needs changing or 
+if you’re curious about how it works.
+
+Collaboration. Working on a team with other developers means, 
+at least in part, knowing how to use Git. It allows you to work on the same project at 
+the same time and not interfere with each other’s work. This is possible because of 
+branching, which you’ll learn about soon.
+
+=============================================================================================
+
+
+git add:-
+
+// git add command is used to add files to the staging area 
+
+
+
+
+git diff:-
+
+// git diff is used to check the diffrence between the current working directory and the staging area
+
+syntax:-
+
+git commit:-
+A commit is the last step in our Git workflow. A commit permanently stores changes from the staging area inside the repository.
+
+git log :-
+Often with Git, you’ll need to refer back to an earlier version of a project. Commits are stored chronologically in the repository and can be viewed with git log 
+
+
+Reasons for using git log:-
+* The output seen when running git log is the 40-character SHA, the author of that commit, the date and time of the commit, and the commit message.
+
+* This is super helpful when you need to look back over the history of a piece of code for various reasons.
+
+* What if you broke something in the code and wanted to see what past, working commits you have available to revert to?
+ What if you want to make a new feature based on an older version of your code, but didn’t remember which commit you wanted to base it off of?
+ It’s good to know this information is there so that when you’re developing, you have the peace of mind knowing that, as long as your commit messages were decent, you’ll have a safety net.
+ And that’s really the main issue: bad commit messages. If you don’t write commits that concisely tell what happened in a commit, it won’t be of much use later when you run into trouble.
+
+
+
 
 
