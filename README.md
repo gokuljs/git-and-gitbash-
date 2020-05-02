@@ -6,3 +6,5 @@
 * https://www.codecademy.com/learn/learn-git/modules/learn-git-git-workflow-u/cheatsheet \
 * https://discuss.codecademy.com/t/community-coding-guides/394513
 *https://discuss.codecademy.com/t/guide-how-developer-teams-work/394900 \
+
+* https://discuss.codecademy.com/t/what-makes-git-useful-to-a-developer/361275
