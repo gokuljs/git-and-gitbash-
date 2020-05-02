@@ -170,5 +170,10 @@ git reset commit_SHA: Resets to a previous commit in your commit history.
 
 
 
+GIT BRANCHING
+
+
+
+
 
 
