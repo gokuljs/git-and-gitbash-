@@ -167,10 +167,70 @@ git reset commit_SHA: Resets to a previous commit in your commit history.
 
 
 ======================================================================================
-
-
-
 GIT BRANCHING
+
+git branch is used to see which branch ur currently working on 
+
+to create new branch git branch new_branch
+where new_branch is the branch name you have to give 
+
+Here new_branch would be the name of the new branch you create, like photos or blurb.
+Be sure to name your branch something that describes the purpose of the branch. Also,
+branch names can’t contain whitespaces: new-branch and new_branch are valid branch names,
+but new branch is not.
+
+
+they share the same exact commit history both master and new branch. You can switch to the new branch with
+syntax :-git checkout branch_name
+
+Here, branch_name is the name of the branch. If the branch’s name is skill
+git checkout skill
+
+Once you switch branch, be now able to make commits on the branch that have no impact on master.
+
+All the commands you do on master, you can also do on this branch.
+
+For example, to add files to the staging area, use:
+
+git add filename
+And to commit, use:
+
+git commit -m "Commit message"
+
+===============================================================================================
+git merge
+
+
+What if you wanted include all the changes made to the fencing branch on the master branch?
+ We can easily accomplish this by merging the branch into master with:
+
+ git merge branch_name
+
+two change the from one branch to another branch we can use git checkout branchname 
+
+if yout mant merge two branches then git merge branchname 
+
+
+==================================================================================================
+
+merge conflict I
+
+What would happen if you made a commit on master before you merged the two branches? Furthermore,
+ what if the commit you made on master altered the same exact text you worked on in fencing? When 
+ you switch back to master and ask Git to merge the two branches, Git doesn’t know which changes you
+  want to keep. This is called a merge conflict.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
