@@ -221,6 +221,39 @@ What would happen if you made a commit on master before you merged the two branc
   want to keep. This is called a merge conflict.
 
 
+think there are two branches updating are happend in same line in two branches there will be conflict when you try to merge 
+other branch with master branch there will be a merge conflict 
+
+===================================================================================================
+
+
+delete branch
+
+In Git, branches are usually a means to an end. You create them to work on a new project feature,
+ but the end goal is to merge that feature into the master branch. After the branch has been integrated 
+ into master, it has served its purpose and can be deleted.
+
+
+ syntax 
+ -d stands for delet 
+ git branch -d branch_name
+
+
+
+
+
+ ==================================================================================================
+
+Let’s take a moment to review the main concepts and commands from the lesson before moving on.
+
+Git branching allows users to experiment with different versions of a project by checking out separate branches to work on.
+The following commands are useful in the Git branch workflow.
+
+git branch: Lists all a Git project’s branches.
+git branch branch_name: Creates a new branch.
+git checkout branch_name: Used to switch from one branch to another.
+git merge branch_name: Used to join file changes from one branch to another.
+git branch -d branch_name: Deletes the branch specified.
 
 
 
@@ -232,6 +265,10 @@ What would happen if you made a commit on master before you merged the two branc
 
 
 
+
+
+
+=====================================================================================================
 
 
 
